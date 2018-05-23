@@ -1,0 +1,98 @@
+<html>
+
+<head>
+  <title> JQuery Lesson</title>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.js"
+  integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+  crossorigin="anonymous">
+</script>
+<script type="text/javascript">
+
+function myfunction (){
+    console.log('hello')
+}
+
+myfunction(); //calling a function//
+
+$ ('.header').hide();
+//selector, function, method
+
+$(function(){
+
+
+
+});
+//same as//
+$(docment).ready(function(){
+
+});
+
+$(function(){
+//Band Name Generator//
+
+
+
+var nStart = ['Artic','cold','the beastie','Neutral'];
+var nEnd =['stripes','Monkies','Fire','Droopy','hoobastank'];
+
+//console.log(nStart);//use it check and make sure its working right
+
+$('#gen').on('click',function(){
+
+  var output = $('input[name=:"bandname"]');
+  var start = nStart[Math.floor((Math.random() * nStart.length))];
+  var end = nEnd[Math.floor((Math.random() * nEnd.length))];
+
+  //  if operator  '&&' two things BOTH have to be true//
+
+
+
+
+    output.val(start + ""+ end););
+
+
+var currentVal = parseInt()  );
+var adjVal = currentVal++;
+
+$('input[name=:"bandname"]').val();//puting somthing inside () changes the behaviour
+
+.text();
+.htmel();
+
+});
+
+
+
+
+});
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+  <input type='text' name
+<button id='gen' type ='button' name='button'> Give a Name!</button>
+
+    <h4>Did I do this right? - Kaitlyn Berthiaume</h4>
+
+</body>
+
+
+</html>
